@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>My Cv</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    h6 {
+      font-family: ABeeZee;
+      font-size: 14px;
+    }
+
+    p {
+      font-family: Cabin;
+      font-size: 13px;
+    }
+
+    h3 {
+      font-family: Baloo;
+      font-size: 22px;
+    }
+
+    .fas {
+      color: rgb(0, 45, 82);
+
+    }
+
+    .progress-bar {
+      background: rgb(0, 45, 82);
+    }
+
+    .img {
+      width: 100%;
+      background: rgb(0, 0, 0);
+      display: flex;
+      justify-items: center;
+    }
+
+
+
+    .footer {
+      position: relative;
+      bottom: -50px;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Homepage ">
+    <div class="row mx-2 my-2">
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="card  ">
+          <div class="img ">
+            <img class="m-auto  " src="./static/image/profile.jpg" width="100%">
+          </div>
+
+          <h2 class="ml-4">YEMI KOLAWOLE</h2>
+          <hr class="mt-n1">
+          <div class="card-body mt-n3">
+            <h6><i class='fas fa-briefcase  mr-3'></i>Ops Engineer</h6>
+            <h6><i class='fas fa-home mt-1 mr-3'></i>XXXXXXXXXXXXXXX</h6>
+            <h6><i class='fas fa-envelope mt-1 mr-3'></i>yemiekholawale$gmail.com</h6>
+            <h6><i class="fas fa-phone-alt mt-1 mr-3"></i>720-334-9917</h6>
+            <hr>
+            <h3><i class="fas fa-cogs mr-3 mb-4"></i> Highlights </h3>
+            <h6>Network configuration & support</h6>
+            <h6>RAN/Core equipment Testing & Integration</h6>
+            <h6>Mobile Telephony faults troubleshooting</h6>
+            <h6>OSPF,EIGRP,BGP,TCP/IP,802.11</h6>
+            <h6>C-RAN,O-RAN,D-RAN,V-RAN</h6>
+            <h6>Project Manager</h6>
+            <h6>Cloud Computing (AWS)</h6>
+            <h6>Kubernetes, Dockers, MySQL</h6>
+            <h6>ITIL,ITSM,Service now</h6>
+            <h6>MS (Visio, Excel, Power point, Word)</h6>
+            <hr>
+            <h3><i class="fas fa-globe  mr-3 mt-3 mb-4"></i> Language </h3>
+            <h6>English</h6>
+            <hr>
+            <hr>
+              <a href="{{ url_for('contact') }}">contact me</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h2><i class="fas fa-suitcase mb-2 mr-2"></i> Work Experience</h2>
+
+            <h5 class="mt-4">Verizon Wireless: Engineer III Specialist - Network Performance</h5>
+            <h6><i class="fas fa-calendar mr-3 my-3  "></i>july 2022 - <button
+                class="btn btn-success px-3 py-0">Current</button>
+            </h6>
+            <p>Investigate, evaluate, and resolve network and data performance issues to ensure 
+              efficient and reliable service for customers.</p>
+            <p>Monitoring and improvement of VoLTE, LTE, 5G, and CDMA network statistics to find and 
+              resolve network issues including both RAN and core problems.</p>
+            <p>Developing automation algorithms and/or methodologies to increase network efficiency.</p>
+            <p>Design test methodologies and test plans for performance testing of new features or 
+              products.</p>
+            <p>Perform capacity and resource planning to evaluate existing network systems to 
+              recommend resources and maintain or expand as necessary.</p>
+            <p>Providing support to RF design and Network Engineering for network expansion & data 
+              capacity growth.</p>
+            <hr>
+            <h5 class="mt-4">Dish Wireless: Wireless Ops Engineering Supervisor</h5>
+            <h6><i class="fas fa-calendar my-3  mr-3 "></i>Feb 2019 - March 2022
+            </h6>
+            <p>Managing and Maintaining the Forcepoint (Websense) infrastructure 
+              across multiple deployments, including the troubleshooting and 
+              upkeep of business-critical devices.</p>
+            <p>Analysis of network captures collected via Wireshark or Network Monitor (TMG).</p>
+            <p>Work-to-resolution issues with site delegation, proxy enforcement, port connectivity, 
+              performance degradation, DNS resolution.</p>
+            <p>Designed, integrated and maintained consolidated network services e.g. switches, 
+              routers, firewalls, wireless networks and network security servers (including data 
+              center virtualization and storage software applications).</p>
+            <p>Performed capacity and resource planning to evaluate existing network systems to 
+              recommend resources and maintain or expand as necessary.</p>
+            <p>Evaluation/design/development/deployment of additional technologies and automation 
+              for managed services on AWS.</p>
+            <p>Supported the business development lifecycle (Business Development, Capture Solution 
+              Architect next migration path, cost reporting and impartments).</p>
+            <p>Performed network maintenance, diagnostics work and provide remote technical 
+              support to cross-organizational teams and engineering associates.</p>
+            <p>Provided engineering implementation for all company managed IP networks and all 
+              applications of IP Technologies.</p>
+            <p>Worked closely with the Transport, IP engineering, Data Center and Network Operations 
+              Center to define, design and implement end-to-end networking solutions.</p>
+            <p>Established and executed preventive maintenance routines and analyzes results for 
+              proactive activities to prevent incidents.</p>
+            <hr>
+            <h5 class="mt-4">Nokia: Network Migration Engineer</h5>
+            <h6><i class="fas fa-calendar mr-3 my-3  "></i>March 2018 - Feb 2019
+            </h6>
+            <p>Provided remote technical support for Field Techs during network migrations, 
+              call/drive tests, referencing site specific network documents (RFDS, CIQ, Port Matrix).</p>
+            <p>Analyzed test logs/results in conformance to best practice operational standards and 
+              threshold.</p>
+            <p>Developing automation algorithms and/or methodologies to increase network efficiency.</p>
+            <p>Provided guidance to project engineers in the upgrade or creation of network designs 
+              to meet business requirements. Guide peers to assist and support other engineering 
+              initiatives.</p>
+            <p>Followed all Incident and problem management processes for operational support. 
+              Developed and implemented improvements for these processes</p>
+            <p>Knowledgeable with evolved RAN technologies, Core functionalities, Cloud 
+              architecture.</p>
+            <p>Carried out commissioning, integration and maintenance of network services and 
+              equipment.</p>
+            <p>Monitored system performance and implemented performance tuning.</p>
+            <p>Provided support to resolve highly complex network issues and escalations.</p>
+            <p>Proactively finds opportunities to improve departmental effectiveness such as, 
+              decrease MTTR/MTTI, reduce defects, improve first pass yield, etc.</p>
+            <p>Prepared & compiled detailed reports on job completion.</p>
+          <hr>
+          <h5 class="mt-4">Nokia: RAN Engineer III</h5>
+            <h6><i class="fas fa-calendar mr-3 my-3  "></i>Oct 2017 - March 2018
+            </h6>
+            <p>Commissioned & integrated Nokia Airscale “5G ready” BBUs, SMMs & inclusive Switches 
+              and Routers for the major wireless network carriers.</p>
+            <p>Troubleshooted and rectified network issues on Cell Sites and Data Centers as required.</p>
+            <p>Carried out throughput tests & E911 test calls in completion of each network migration 
+              procedures.</p>
+            <p>Adhered to the standard required technical checklist for quality assurance.</p>
+            <p>Trained incoming Techs on the job operational technicalities.</p>
+            <p>Prepared & compiled detailed reports on job completion.</p>
+          <hr>
+          <h5 class="mt-4">Ericsson : Lead RAN Engineer</h5>
+            <h6><i class="fas fa-calendar mr-3 my-3  "></i>Sep 2011 - Oct 2017
+            </h6>
+            <p>Commissioned, integrated & maintained BTS (Switches & Routers), Minilink TN/Long-Haul Microwave Radio Transmission equipment (ODU/IDU), (RAU/SPD protection, 
+              PDH/SDH/E-NET support).</p>
+            <p>Commissioned & integrated RRUs and BBUs for varying network frequency 
+              bands/technologies (DUG, DUW, DUL) on 6000 series RBS.</p>
+            <p>Carried out cell-site (RBS) swap/upgrade operations from other outgoing hardware 
+              vendors to E/// solution or from E/// to E/// upgrades.</p>
+            <p>Carried out Network Drive test and RF Optimization for customer.</p>
+            <p>Commissioned Power Backup sys. (PBC Rectifier, Battery Banks, Solar-hybrid sys).</p>
+            <p>Installed and configured Alarms and Sensors for network monitoring.</p>
+            <p>Adhered to the standard required technical checklist for quality assurance.</p>
+            <p>Trained incoming Techs on the job operational technicalities.</p>
+            <p>Prepared & compiled detailed reports on job completion.</p>
+            <hr>
+            <h5 class="mt-4">PROFESSIONAL TRAININGS & CERTIFICATIONS</h5>
+            <p>AWS Solutions Architect Associate…[Amazon]</p>
+            <p>PMP [PMI]</p>
+            <p>Managers Essentials…[DISH]</p>
+            <p>Lead Grow……………….[DISH]</p>
+            <p>4G LTE-Multiradio BTS Commissioning...[NOKIA]</p>
+            <p>Nokia Kaizen Advocate Integrated Course................[NOKIA]</p>
+            <p>Huawei RBS Commissioning..................[HUAWEI]</p>
+            <p>RBS 6000 series Commissioning............[ERICSSON]</p>
+            <p>Minilink Traffic Node Commissioning..... [ERICSSON]</p>
+            <p>Minilink Long Haul Commissioning......... [ERICSSON]</p>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <div class="card-body">
+            <h2 class=" mb-2"><i class="fas fa-certificate"></i> Education</h2>
+            <h6><i class="fas fa-calendar my-2 mr-2"></i> 2011 </h6>
+            <p>BACHELOR OF TECHNOLOGY, MECHANICAL ENGINEERING.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
